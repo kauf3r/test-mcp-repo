@@ -1,0 +1,33 @@
+{
+  "name": "test-mcp-repo",
+  "version": "1.0.0",
+  "description": "Test repository created with GitHub MCP server",
+  "main": "demo.js",
+  "scripts": {
+    "start": "node demo.js",
+    "dev": "nodemon demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauf3r/test-mcp-repo.git"
+  },
+  "keywords": [
+    "express",
+    "demo",
+    "mcp",
+    "github"
+  ],
+  "author": "kauf3r",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kauf3r/test-mcp-repo/issues"
+  },
+  "homepage": "https://github.com/kauf3r/test-mcp-repo#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
